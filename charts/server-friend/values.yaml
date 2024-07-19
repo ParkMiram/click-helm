@@ -89,7 +89,7 @@ env:
   - name: "profiles"
     value: "prod"
   - name: "SPRING_DATASOURCE_URL"
-    value: "jdbc:mysql://localhost:3306/click_friends?&serverTimezone=Asia/Seoul"
+    value: "jdbc:mysql://click-mysql-friend:3306/click_friends?&serverTimezone=Asia/Seoul"
   - name: "SPRING_DATASOURCE_USERNAME"
     value: "root"
   - name: "SPRING_DATASOURCE_PASSWORD"
